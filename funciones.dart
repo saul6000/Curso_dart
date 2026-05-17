@@ -84,7 +84,7 @@ void muestra_lista_D(List lista){
 //Clouseres (Clausuras)
 //1._ Las funciones son valores (por tanto se pueden devolver como resultados de otras funcion)
 //2._ Si estan anidadas tienen acceso al entorno de la funcion que las contiene
-nuevoSumador(double dx){
+ nuevoSumador(double dx){
   return (double x)=> x +dx;
   }
 
